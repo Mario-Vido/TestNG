@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite2">
+    <test name="Informacny System 1">
+        <parameter name="poschodie" value="3"/>
+        <classes>
+            <class name="BeforeTestMethod"></class>
+            <class name="PoziarnyHasicTest"/>
+            <class name="RampaTest"/>
+            <class name="KamerovySystemTest"/>
+        </classes>
+    </test>
+    <test name="Informacny System 2">
+        <parameter name="poschodie" value="3"/>
+        <classes>
+            <class name="BeforeTestMethod"></class>
+            <class name="PoziarnyHasicTest"/>
+            <class name="RampaTest"/>
+        </classes>
+    </test>
+    <test name="Informacny System 3">
+        <parameter name="poschodie" value="3"/>
+        <classes>
+            <class name="BeforeTestMethod"></class>
+            <class name="PoziarnyHasicTest"/>
+            <class name="KamerovySystemTest"/>
+        </classes>
+    </test>
+</suite>
+
